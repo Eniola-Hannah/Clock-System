@@ -1,0 +1,14 @@
+body{
+    background-image: url(media/undraw_time_management_re_tk5w.svg);
+}
+input{
+    width: 150px;
+    height: 100px;
+    padding: 20px;
+    font-size: 70px;
+    color: white;
+    background-color: deeppink;
+    border-radius: 10px;
+    border: 0px;
+    margin: 5px;
+}

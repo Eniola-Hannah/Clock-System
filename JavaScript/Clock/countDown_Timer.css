@@ -1,0 +1,13 @@
+body{
+    background-image: url(media/Urgent-amico.svg);
+}
+input{
+    width: 100px;
+    height: 80px;
+    padding: 20px;
+    font-size: xx-large;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    margin: 5px;
+}

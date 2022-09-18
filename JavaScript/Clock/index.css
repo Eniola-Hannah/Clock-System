@@ -1,0 +1,17 @@
+body{
+    background-image: url(media/Timemanagement-bro.svg);
+}
+#bigDiv{
+    background-color: skyblue;
+    width: 700px;
+    height: 200px;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+#display{
+    padding: 20px;
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: cursive;
+}
