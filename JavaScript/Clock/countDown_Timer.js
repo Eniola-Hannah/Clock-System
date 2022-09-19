@@ -13,9 +13,7 @@ const countDown = () => {
         minutes.value = myMinutes
         hours.value = myHours
         timeout = setTimeout(countDown, 1000);
-        // if(minutes.value != "" && seconds.value == "" ){
-        //     seconds.value = 59;
-        // }
+        
         if(seconds.value == 0 && minutes.value != 0){
             // alert("done")
             seconds.value = 59;
