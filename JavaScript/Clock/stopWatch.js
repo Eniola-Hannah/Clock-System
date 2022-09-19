@@ -12,7 +12,7 @@ const startTime = () =>{
     hours.value = fourth_countUp
     countUp++
     timeout = setTimeout(startTime, 10);
-    if (milliSeconds.value == 100){
+    if (milliSeconds.value == 60){
         second_countUp += 1     // that is let seconds increase by 1
         countUp = 1;            // and let milliseconds go back to 1
     }
