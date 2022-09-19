@@ -9,7 +9,7 @@ const countDown = () => {
     if(seconds.value == "" && minutes.value == "" && hours.value == ""){
         alert("Input a value")
     }
-    if(minutes.value != "" && seconds.value == "" ){
+    else if((minutes.value != "" && seconds.value == "")||(hours.value != "" && minutes.value == "")){
         alert("Make sure there's a value in the seconds")
     }else{
         seconds.value = mySeconds
