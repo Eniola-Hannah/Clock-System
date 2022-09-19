@@ -13,7 +13,14 @@ input{
     margin: 5px;
     border: 0px;
 }
+nav{
+    background-color: skyblue;
+    font-size: large;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
 h1{
+    font-family: 'Times New Roman', Times, serif;
     background-color: white;
 }
 .timeDiv{

@@ -5,10 +5,10 @@ nav{
     background-color: purple;
     font-size: large;
     font-style: italic;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
 }
 h1{
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
 }
 input{
     width: 100px;

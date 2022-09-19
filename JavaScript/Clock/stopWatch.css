@@ -1,13 +1,28 @@
 body{
     background-image: url(media/undraw_time_management_re_tk5w.svg);
 }
+nav{
+    background-color: blue;
+    font-size: large;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    font-family: 'Times New Roman', Times, serif;
+}
+#startPause{
+    background-color: blue;
+}
 input{
     width: 150px;
     height: 100px;
     padding: 20px;
     font-size: 70px;
     color: white;
-    background-color: deeppink;
+    background-color: blue;
     border-radius: 10px;
     border: 0px;
     margin: 5px;
