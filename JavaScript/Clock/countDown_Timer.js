@@ -8,6 +8,9 @@ const countDown = () => {
     mySeconds--
     if(seconds.value == "" && minutes.value == "" && hours.value == ""){
         alert("Input a value")
+    }
+    if(minutes.value != "" && seconds.value == "" ){
+        alert("Make sure there's a value in the seconds")
     }else{
         seconds.value = mySeconds
         minutes.value = myMinutes
