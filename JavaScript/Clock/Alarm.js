@@ -19,6 +19,10 @@ const setAlarm =()=>{
     seconds.value == sec
     if(hr == now.getHours() && min == now.getMinutes() && sec == now.getSeconds()){
         alarmSong.play()
+        alarmMethod.innerHTML = `
+            <button id="snooze" onclick="snoozeAlarm()" class="btn btn-lg btn-info px-3">Snooze</button>
+            <button id="dismiss" onclick="dismissAlarm()" class="btn btn-lg btn-info px-3">Dismiss</button>
+        `
     }  
     set  = setTimeout(setAlarm, 1000);
 } 

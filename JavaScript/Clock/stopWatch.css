@@ -1,8 +1,9 @@
 body{
-    background-image: url(media/undraw_time_management_re_tk5w.svg);
+    background-image: url(media/SR-Value-D.jpg);
+    background-size: cover;
 }
 nav{
-    background-color: blue;
+    background-color: goldenrod;
     font-size: large;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
@@ -13,33 +14,54 @@ h1{
 button{
     font-family: 'Times New Roman', Times, serif;
 }
+.sideChick{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 15vh;
+    left: 15vw;
+    background-image: url(media/Urgent-amico.svg);
+}
+.row{
+    width: 600px;
+    background-color: black;
+    opacity: 0.7;
+    height: 320px;
+    position: absolute;
+    border-radius: 10px;
+    top: 15vh;
+    left: 30vw;
+}
 #startPause{
-    background-color: blue;
+    background-color: goldenrod;
+    border: 2px solid white;
 }
 #styleButton{
-    background-color: blue;
+    border: 2px solid white;
+    background-color: goldenrod;
 }
-input{
-    width: 120px;
-    height: 90px;
-    padding: 20px;
-    font-size: 70px;
-    color: white;
-    background-color: blue;
-    border-radius: 10px;
-    border: 0px;
-    margin: 5px;
-}
+
 @media only screen and (max-width:800px){
     nav{
         font-size: medium;
     }
-    input{
-        width: 50px;
-        height: 50px;
-        padding: 10px;
-        font-size: 20px;
+    .sideChick{
+        width: 60px;
+        height: 60px;
+        top: 6vh;
+        left: 25vw;
+    }
+    .row{
+        width: 300px;
+        height: 400px;
         border-radius: 5px;
-        margin: 3px;
+        top: 15vh;
+        left: 10vw;
+    }
+    #startPause{
+        border: 1px solid white;
+    }
+    #styleButton{
+        border: 1px solid white;
     }
 }
