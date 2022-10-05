@@ -5,7 +5,7 @@ let third_countUp = 00;
 let fourth_countUp = 00;
 let timeout;
 const startTime = () =>{
-    startPause.innerHTML = "START"
+    startPause.innerHTML = "Start"
     milliSeconds.innerHTML = countUp;
     seconds.innerHTML = second_countUp;
     minutes.innerHTML = third_countUp
